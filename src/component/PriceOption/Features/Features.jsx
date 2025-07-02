@@ -9,6 +9,7 @@ const Features = ({features}) => {
         </div>
     );
 };
+
 Features.propTypes = {
    features:PropTypes.string
 }
