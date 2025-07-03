@@ -13,16 +13,11 @@ const LineChart = () => {
   { id: 8, name: "Hassan", math: 80, physics: 82, chemistry: 85 },
   { id: 9, name: "Isabella", math: 95, physics: 90, chemistry: 92 },
   { id: 10, name: "Jamil", math: 70, physics: 68, chemistry: 72 },
-];;
+];
 
     return (
-        <div>
-            {/* <LChart width={800} height={400} data={students}>
-                <XAxis dataKey="name"></XAxis>
-                <YAxis></YAxis>
-            <Line dataKey="math" stroke='red'></Line>
-            <Line dataKey={'physics'} stroke='yellow'></Line>
-            </LChart> */}
+        <div className='text-center'>
+           
             <LC width={800} height={400} data={students}>
                  <XAxis dataKey="name"></XAxis>
                 <YAxis></YAxis>
